@@ -32,12 +32,4 @@ npm run dev
 ![image](https://i.imgur.com/KhOhKsO.png)
 ![image](https://i.imgur.com/8K0WApF.png)
 
----
-
-### Connect with me
-[![website](./img/twitter-light.svg)](https://twitter.com/rduinoa#gh-light-mode-only)
-[![website](./img/twitter-dark.svg)](https://twitter.com/rduinoa#gh-dark-mode-only)
-&nbsp;&nbsp;
-[![website](./img/linkedin-light.svg)](https://linkedin.com/in/ardn#gh-light-mode-only)
-[![website](./img/linkedin-dark.svg)](https://linkedin.com/in/ardn#gh-dark-mode-only)
 
