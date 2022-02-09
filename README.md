@@ -35,10 +35,9 @@ npm run dev
 ---
 
 ### Connect with me
-[![https://twitter.com/rduinoa](./img/twitter-light.svg)](https://twitter.com/codestackr#gh-light-mode-only)
-[![https://twitter.com/rduinoa](./img/twitter-dark.svg)](https://twitter.com/codestackr#gh-dark-mode-only)
+[![website](./img/twitter-light.svg)](https://twitter.com/rduinoa#gh-light-mode-only)
+[![website](./img/twitter-dark.svg)](https://twitter.com/rduinoa#gh-dark-mode-only)
 &nbsp;&nbsp;
-[![https://www.linkedin.com/in/ardn/](./img/linkedin-light.svg)](https://linkedin.com/in/codeSTACKr#gh-light-mode-only)
-[![https://www.linkedin.com/in/ardn/](./img/linkedin-dark.svg)](https://linkedin.com/in/codeSTACKr#gh-dark-mode-only)
-&nbsp;&nbsp;
+[![website](./img/linkedin-light.svg)](https://linkedin.com/in/ardn#gh-light-mode-only)
+[![website](./img/linkedin-dark.svg)](https://linkedin.com/in/ardn#gh-dark-mode-only)
 
