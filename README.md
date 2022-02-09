@@ -29,8 +29,8 @@ npm run dev
 
 ![image](https://i.imgur.com/bpYq3bf.png)
 ![image](https://i.imgur.com/SUexZ2M.png)
-![image](https://i.imgur.com/eJCMeBO.png)
-![image](https://i.imgur.com/hPI81Qk.png)
+![image](https://i.imgur.com/KhOhKsO.png)
+![image](https://i.imgur.com/8K0WApF.png)
 
 ---
 
@@ -41,5 +41,4 @@ npm run dev
 [![https://www.linkedin.com/in/ardn/](./img/linkedin-light.svg)](https://linkedin.com/in/codeSTACKr#gh-light-mode-only)
 [![https://www.linkedin.com/in/ardn/](./img/linkedin-dark.svg)](https://linkedin.com/in/codeSTACKr#gh-dark-mode-only)
 &nbsp;&nbsp;
-# AMGyms
-# AMGyms
+
