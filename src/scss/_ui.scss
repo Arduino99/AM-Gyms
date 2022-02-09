@@ -1,0 +1,160 @@
+.btn {
+    max-width: 366px;
+    width: 100%;
+    border: 2px solid #2ed13b;
+    background-color: #2ed13b;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 55px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #ffffff;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    &:hover {
+        border-color: #2ed13b;
+        background-color: #f0f0f0;
+        color: #6f6f6f;
+    }
+    &:active {
+        background-color: #28b733;
+;
+    }
+    &-sm {
+        height: 54px;
+        border: 2px solid #2ed13b;
+        background-color: #ffffff;
+        color: #6f6f6f;
+        max-width: 312px;
+        &:hover {
+            background-color: #2ed13b;
+            color: white;
+        }
+        &:active {
+            background-color: #28b733;
+            border-color: #28b733;
+        }
+    }
+}
+.section {
+    max-width: 1340px;
+    margin: auto;
+    padding-top: 70px;
+    &-title {
+        font-weight: bold;
+        font-size: 42px;
+        line-height: 51px;
+        color: #000000;
+        position: relative;
+        margin: auto;
+        text-align: center;
+        span {
+            position: relative;
+            z-index: 1;
+        }
+        &::after {
+            content: "";
+            position: absolute;
+            width: 110%;
+            height: 27px;
+            display: block;
+            left: -5%;
+            bottom: -5px;
+            z-index: 0;
+            border-radius: 5px;
+        }
+    }
+}
+.popup {
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(75, 75, 75, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+    &-show {
+        opacity: 1;
+        pointer-events: auto;
+    }
+    &__content {
+        height: 100%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        overflow-y: scroll;
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+        &::-webkit-scrollbar {
+            width: 0;
+        }
+    }
+    &__close {
+        border: none;
+        background: none;
+        position: absolute;
+        right: 50px;
+        top: 25px;
+        cursor: pointer;
+    }
+}
+@font-face {
+    font-family: "DIN2014";
+    src: url("../fonts/DIN2014-Regular.ttf") format("ttf"), url("../fonts/DIN2014-Regular.woff") format("woff");
+}
+.page {
+    &-title {
+        font-family: "DIN2014", sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 50px;
+        color: #000000;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 1390px) {
+    .section {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+@media screen and (max-width: 1250px) {
+    .page {
+        &-title {
+            padding-top: 50px;
+        }
+    }
+}
+@media screen and (max-width: 1110px) {
+    .popup {
+        &__close {
+            right: 20px;
+        }
+        &__content {
+            padding: 100px 20px;
+        }
+    }
+}
+@media screen and (max-width: 530px) {
+    .section {
+        &-title {
+            font-size: 30px;
+            line-height: 45px;
+        }
+    }
+    .page {
+        &-title {
+            font-size: 28px;
+            line-height: 40px;
+        }
+    }
+}
